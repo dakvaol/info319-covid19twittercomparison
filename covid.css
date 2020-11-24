@@ -1,0 +1,41 @@
+body{
+    background-color: #262626;
+    margin: 10px;
+}
+
+/*The map needs a set height variable to be visible 
+since the default height of the map is 0*/
+#covidMap {
+  height: 750px;
+}
+
+#headline{
+    color: white;
+}
+#metainfo{
+    color: white;
+}
+
+.topbtn-group button{
+    background-color: #090909;
+    border: 1px white;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.botbtn-group button{
+    background-color: #090909;
+    border: 1px white;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: white;
+    color: #090909;
+}
